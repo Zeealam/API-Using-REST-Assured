@@ -1,0 +1,13 @@
+{
+    "fields": {
+       "project":
+       { 
+          "key": "RA"
+       },
+       "summary": "Creatiing Bug22 from Rest Assured Framework..",
+       "description": "Creating from Rest Automation fromework.",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}

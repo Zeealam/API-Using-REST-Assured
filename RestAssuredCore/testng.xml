@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- Listener :U will get in testng doc http://testng.org/doc/documentation-main.html#testng-listeners -->
+<listeners>
+    <listener class-name="com.glb.resources.ExtentReporterNG" />
+</listeners>
+  
+ <test name="Test">
+   
+    <classes>
+      <class name="com.glb.RestAssuredCore.CreateIssue"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
